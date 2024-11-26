@@ -49,6 +49,18 @@ img{
         font-size: 20px;
 }
 
+.firstcard .precio{                    
+                     color: #555560; 
+}
+
+.secondcard .precio{
+                     color: #c5b190;  
+}
+
+.thirdcard .precio{
+                     color: #0a0a0a;
+}
+
 .estrellasrellenas{
                     color: orange;
 }
@@ -74,10 +86,15 @@ footer{
 
 
 .add:hover{
-           .precio, footer{
+            .precio{                
+                    color: green;
+            }
+
+           footer{
                            background-color: aqua;
                            color: blue;
             }
-           
+
+         
 }
 
