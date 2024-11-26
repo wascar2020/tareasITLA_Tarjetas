@@ -1,0 +1,83 @@
+
+
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+      background-color: rgba(128, 128, 128, 0.339);
+}
+
+.tarjetastodas{
+                display: flex;
+                flex-direction:row;
+                justify-content: center;                         
+                width: 100%;
+                height: 700px;                 
+}
+
+.tarjeta{
+            display: flex;
+            flex-direction: column;                    
+            align-items:center;
+            justify-content: space-between  ;
+            margin:30px;
+            width: 350px;
+            height: 600px;
+            background-color: white;
+             
+}
+
+img{
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+    }
+    
+.marca{
+       font-weight: bold;
+       font-size: 20px;
+}
+
+.descripcion{
+             text-align: center;
+}
+
+.precio{
+        font-size: 20px;
+}
+
+.estrellasrellenas{
+                    color: orange;
+}
+
+footer{                             
+        width: 100%;
+        padding: 20px;
+        text-align: center; 
+        color: white;                          
+}
+
+.firstcard footer{
+                  background-color: #555560;        
+                }
+
+.secondcard footer{
+                  background-color: #c5b190;        
+}
+
+.thirdcard footer{
+                  background-color: #0a0a0a;        
+}
+
+
+.add:hover{
+           .precio, footer{
+                           background-color: aqua;
+                           color: blue;
+            }
+           
+}
+
