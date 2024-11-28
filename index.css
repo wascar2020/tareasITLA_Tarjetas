@@ -85,7 +85,8 @@ footer{
 
 .footer:hover{
               background-color: aqua;
-              color: blue;  
+              color: blue; 
+              cursor:grab;
 }
 
 .footer:hover + .price{                                 
